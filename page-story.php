@@ -52,7 +52,8 @@ get_header("story"); ?>
 					<p class="story__member__about">【<?php the_field('about02'); ?>】</p>
 					<p class="story__member__name"><?php the_field('name02'); ?></p>
 					<p class="story__member__name-en"><?php the_field('name-en02'); ?></p>
-					<p class="story__member__year"><span class="story__member__position"><?php the_field('position02'); ?></span><br><?php the_field('year02'); ?></p>
+					<!-- <p class="story__member__year"><span class="story__member__position"><?php the_field('position02'); ?></span><br><?php the_field('year02'); ?></p> -->
+					<p class="story__member__year"><span class="story__member__position"><?php the_field('position02'); ?></span><br>2006年 中途入社</p>
 				</div>
 				<div class="story__member__item scroll-up">
 					<?php if (get_field('thumbnail03')) : ?>
@@ -110,7 +111,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img01-1')) : ?>
-						<img src="<?php the_field('img01-1'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img01-1'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -133,7 +134,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img01-2')) : ?>
-						<img src="<?php the_field('img01-2'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img01-2'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -156,7 +157,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img01-3')) : ?>
-						<img src="<?php the_field('img01-3'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img01-3'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -197,7 +198,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img02-1')) : ?>
-						<img src="<?php the_field('img02-1'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img02-1'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -220,7 +221,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img02-2')) : ?>
-						<img src="<?php the_field('img02-2'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img02-2'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -243,7 +244,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img02-3')) : ?>
-						<img src="<?php the_field('img02-3'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img02-3'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -285,7 +286,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img03-1')) : ?>
-						<img src="<?php the_field('img03-1'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img03-1'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -308,7 +309,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img03-2')) : ?>
-						<img src="<?php the_field('img03-2'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img03-2'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -331,7 +332,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img03-3')) : ?>
-						<img src="<?php the_field('img03-3'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img03-3'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -373,7 +374,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img04-1')) : ?>
-						<img src="<?php the_field('img04-1'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img04-1'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -396,7 +397,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img04-2')) : ?>
-						<img src="<?php the_field('img04-2'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img04-2'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>
@@ -419,7 +420,7 @@ get_header("story"); ?>
 			<div class="episode__conts">
 				<div class="inner__min">
 					<?php if (get_field('img04-3')) : ?>
-						<img src="<?php the_field('img04-3'); ?>" class="scroll-up"/>
+						<img src="<?php the_field('img04-3'); ?>" class="scroll-up" />
 					<?php endif; ?>
 				</div>
 			</div>

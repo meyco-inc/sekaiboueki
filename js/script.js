@@ -263,10 +263,7 @@ function FixedAnime() {
 
 // 画面をスクロールをしたら動かしたい場合の記述
 $(window).scroll(function () {
-	// スマホは影をつけない
-	if (!(navigator.userAgent.match(/iPhone|Android.+Mobile/))) {
-		FixedAnime();
-	}
+	FixedAnime();
 });
 
 // about usページのモーダル

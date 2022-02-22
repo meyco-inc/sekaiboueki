@@ -130,7 +130,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1964</h3>
 					<div class="history__text__wrap history__1964">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1964.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1964.png" alt="">
 						<p>
 							㈱東京ターミナル（当社の旧社名）設立。<br>
 							ビル基本計画に着手
@@ -140,7 +140,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1967</h3>
 					<div class="history__text__wrap history__1967">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1967.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1967.png" alt="">
 						<p>
 							ビル建設工事に着手
 						</p>
@@ -149,7 +149,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1970</h3>
 					<div class="history__text__wrap history__1970">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1970.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1970.png" alt="">
 						<p>
 							「世界貿易センタービル」竣工
 						</p>
@@ -158,7 +158,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1971</h3>
 					<div class="history__text__wrap history__1971">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1971.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1971.png" alt="">
 						<p>
 							結婚式場「スカイホール」営業開始
 						</p>
@@ -167,7 +167,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1974</h3>
 					<div class="history__text__wrap history__1974">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1974.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1974.png" alt="">
 						<p>
 							㈱東京ターミナルを<br>
 							㈱世界貿易センタービルディングに社名変更
@@ -177,7 +177,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1976</h3>
 					<div class="history__text__wrap history__1976">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1976.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1976.png" alt="">
 						<p>
 							分譲マンション事業開始
 						</p>
@@ -186,7 +186,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>1989</h3>
 					<div class="history__text__wrap history__1989">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1989.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_1989.png" alt="">
 						<p>
 							アーバイン第1・第2ビル<br>
 							（米国カリフォルニア州）取得
@@ -196,7 +196,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>2001</h3>
 					<div class="history__text__wrap history__2001">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2001.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2001.png" alt="">
 						<p>
 							コージェネレーション・太陽光発電設備の導入
 						</p>
@@ -205,7 +205,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>2004</h3>
 					<div class="history__text__wrap history__2004">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2004.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2004.png" alt="">
 						<p>
 							BELCA賞（ロングライフ部門）を受賞
 						</p>
@@ -214,7 +214,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>2007</h3>
 					<div class="history__text__wrap history__2007">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2007.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2007.png" alt="">
 						<p>
 							コージェネレーション・<br>
 							太陽光発電設備の導入
@@ -224,7 +224,7 @@ get_header(); ?>
 				<div class="history__year__wrap scroll-up">
 					<h3>2014</h3>
 					<div class="history__text__wrap history__2014">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2014.jpg" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2014.png" alt="">
 						<p>
 							会社創立50周年、企業理念制定
 						</p>
