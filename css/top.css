@@ -287,10 +287,18 @@ background: #fff ;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	padding-right: 32px;
+    padding-left: 32px;
 	transform: translate(-50%, -50%);
-	width: 100%;
+	max-width: 852px;
 	text-align: center;
 	font-family: "YuMincho +36p Kana", YuMincho,'Yu Mincho',serif;
+}
+
+@media (max-width: 768px) {
+	.mv__title {
+		width: 264px;
+	}
 }
 
 .mv__link {
@@ -351,6 +359,7 @@ background: #fff ;
 	-webkit-transform: scale(1.0 , 1.0);
 	transition: opacity 1s, transform 5s;
 	-webkit-transition: opacity 1s, transform 5s;
+	/* transition: 2s; */
 }
 .top__slideshow img.active {
 	opacity: 1;
@@ -361,12 +370,14 @@ background: #fff ;
 .top__slideshow img.previous.active {
 	opacity: 1;
 	transform: scale(1.06 ,1.06);
+	/* transition-delay: 3s; */
 	transition: 0s;
 	z-index: 1;
 }
 @media (max-width: 768px) {
 	.top.mv {
 		height: 100vh;
+		/* min-height: 100vh; */
 		min-height: -webkit-fill-available;
 	}
 }
@@ -452,8 +463,15 @@ background: #fff ;
 	padding: 10px;
 }
 
+.modal__title-wrap {
+	display: flex;
+    align-items: center;
+    margin-right: 146px;	
+}
+
 .modal__title {
 	font-size: clamp(56px, calc(8vw + 1px), 88px);
+	height: 248px;
 	letter-spacing: 0.24em;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -464,6 +482,13 @@ background: #fff ;
 	letter-spacing: 0.24em;
 	font-family: "YuMincho +36p Kana", YuMincho,'Yu Mincho',serif;
 	white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+	.modal__title {
+		height: unset;
+		width: 264px;
+	}
 }
 
 .modal__text {
@@ -516,6 +541,7 @@ background: #fff ;
 	letter-spacing: .3em;
 	font-weight: 500;
 	line-height: 2;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 .mv__text.pc {
@@ -1051,6 +1077,7 @@ background: #fff ;
 }
 .aboutUs .mv__text {
 	text-align: center;
+	font-weight: normal;
 }
 .aboutUs .mv__bgText {
 	right: -207px;

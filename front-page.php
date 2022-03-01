@@ -16,7 +16,10 @@ get_header(); ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/top/mv_top_4.jpg" alt="">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/top/mv_top_5.jpg" alt="">
 		</div>
-		<h2 class="mv__title">ひとつ、<br class="sp">ひとつ。</h2>
+		<!-- <div class="top-inner"> -->
+		<!-- <h2 class="mv__title">ひとつ、<br class="sp">ひとつ。</h2> -->
+		<img class="mv__title pc" src="<?php echo get_template_directory_uri(); ?>/img/top/copy-text.svg" alt="ひとつ、ひとつ。">
+		<img class="mv__title sp" src="<?php echo get_template_directory_uri(); ?>/img/top/copy-text-sp.svg" alt="ひとつ、ひとつ。">
 		<div>
 			<a id="modalOpen" class="mv__link" href="">MESSAGE</a>
 		</div>
@@ -29,12 +32,16 @@ get_header(); ?>
 			<p id="mv__gaugeBefore" class="mv__gaugeBefore">01</p>
 			<p class="mv__gaugeAfter">05</p>
 		</div>
+		<!-- </div> -->
 
 		<!-- Topのモーダル -->
 		<div id="mv__modal" class="mv__modal">
 			<div class="container">
 				<div class="modal__outer">
-					<h2 class="modal__title">ひとつ、<br>ひとつ。</h2>
+					<!-- <h2 class="modal__title">ひとつ、<br>ひとつ。</h2> -->
+					<div class="modal__title-wrap">
+						<img class="modal__title" src="<?php echo get_template_directory_uri(); ?>/img/top/copy-text-sp.svg" alt="ひとつ、ひとつ。">
+					</div>
 					<div class="modal__text">
 						<p>
 							時代の流れと共に変わる、まちの景色。<br>
