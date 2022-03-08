@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>株式会社世界貿易センタービルディング　新卒採用情報</title>
+	<title>株式会社世界貿易センタービルディング 新卒採用情報</title>
 	<meta name="description" content="株式会社世界貿易センタービルディング 新卒採用情報です。">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="noindex">
@@ -16,16 +16,19 @@
 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/destyle.css">
 	<link rel="stylesheet" href="https://use.typekit.net/jpg4ynp.css">
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.6.0.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/slick.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/slick-theme.css" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.6.0.min.js"></script>
+	
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.mousewheel.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
+	
 	<script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
 

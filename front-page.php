@@ -94,11 +94,13 @@ get_header(); ?>
 					<span>「世界貿易センタービル南館」の建設プロジェクト。</span>
 				</p>
 				<p class="mv__text sp">
-					<span>浜松町のシンボルである</span><br>
-					<span>世界貿易センタービルはいかにして</span><br>
-					<span>生まれたのか。</span><br>
-					<span>南館ビル建設プロジェクトの</span><br>
-					<span>中心メンバーに真相を迫った。</span>
+					<span>浜松町のシンボル</span><br>
+					<span>「世界貿易センタービル」の</span><br>
+					<span>建て替えを含む、浜松町駅前エリアの</span><br>
+					<span>再開発事業。</span><br>
+					<span>その初弾となる高さ約197mのオフィス棟</span><br>
+					<span>「世界貿易センタービル南館」の</span><br>
+					<span>建設プロジェクト。</span>
 				</p>
 			</div>
 			<div class="psImg">
@@ -193,10 +195,10 @@ get_header(); ?>
 					<span>今までのあゆみなどを紹介しています。</span>
 				</p>
 				<p class="mv__text sp">
-					<span>私たち世界貿易センタービルディングは、</span><br>
-					<span>多くの企業様に寄り添い、</span><br>
-					<span>より快適な業務空間を提供できるように</span><br>
-					<span>これからも貢献してまいります。</span>
+					<span>1964年に浜松町で創業し、</span><br>
+					<span>常に地元と共に発展してきた</span><br>
+					<span>当社の事業内容や特徴、</span><br>
+					<span>今までのあゆみなどを紹介しています。</span>
 				</p>
 				<div class="mv__linkOuter">
 					<a href="<?php echo home_url(); ?>/about" class="mv__link">ABOUT US</a>
@@ -220,12 +222,10 @@ get_header(); ?>
 					<span>心待ちにしております。</span>
 				</p>
 				<p class="mv__text sp">
-					<span>世界貿易センタービルディングの</span><br>
-					<span>新卒採用を紹介しています。</span><br>
-					<span>私たちとともに”ひとつ、ひとつ”</span><br>
-					<span>積み重ね、より深いまちづくりを</span><br>
-					<span>目指していただける方を</span><br>
-					<span>お待ちしております。</span>
+					<span>募集要項や選考フローを紹介しています。</span><br>
+					<span>世界貿易センタービルディングは同じ想いで</span><br>
+					<span>つながっていける方との出会いを</span><br>
+					<span>心待ちにしております。</span>
 				</p>
 				<div class="mv__linkOuter">
 					<a href="<?php echo home_url(); ?>/information" class="mv__link">INFORMATION</a>

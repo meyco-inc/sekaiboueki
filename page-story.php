@@ -37,7 +37,7 @@ get_header(); ?>
 		<div class="container">
 			<h2 class="scroll-up">PROJECT MEMBER</h2>
 
-			<div class="story__member__wrap">
+			<div class="story__member__wrap pc">
 				<div class="story__member__item scroll-up">
 					<?php if (get_field('thumbnail01')) : ?>
 						<img src="<?php the_field('thumbnail01'); ?>" />
@@ -77,6 +77,12 @@ get_header(); ?>
 				</div>
 			</div>
 
+			<div class="story__member__wrap sp">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/story/img_arakawa.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/story/img_naka.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/story/img_kotaki.png" alt="">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/story/img_hino.png" alt="">
+			</div>
 		</div>
 	</section>
 

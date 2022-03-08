@@ -21,34 +21,37 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<!-- <section class="business about__conts">
-    <div class="container">
-      <div class="inner">
+	<section class="business about__conts">
+		<div class="container">
+			<div class="inner">
+				<h2 class="scroll-up"><span>BUSINESS</span>事業内容</h2>
+				<p class="scroll-up business__lead">世界貿易センタービルディングは、<br class="sp">建物を「建てる」「貸す」「管理する」<br class="sp">という<br class="pc">
+					不動産ビジネスの一連の流れを<br class="sp">ワンストップで行っている会社です。</p>
 
-        <h2><span>BUSINESS</span>事業内容</h2>
-        <p class="business__lead">立地条件のよさを活かし、地域のランドマークとなるような“オフィスを主体とした複合施設”を提供しています。</p>
+				<div class="scroll-up business__wrap">
+					<div class="business__item">
+						<h3>建てる”都市の再開発事業”</h3>
+						<p class="business__item__text">デベロッパーとして、現在は浜松町の再開発事業を実施しています。</p>
+						<img class="pc" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business01.svg" alt="">
+						<img class="sp" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business01-sp.svg" alt="">
+					</div>
+					<div class="business__item">
+						<h3>貸す”ビル賃貸事業”</h3>
+						<p class="business__item__text">ビルオーナーの当社は、テナント誘致やテナント管理などのリーシングマネジメントも自社で実施しています。</p>
+						<img class="pc" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business02.svg" alt="">
+						<img class="sp" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business02-sp.svg" alt="">
+					</div>
+					<div class="business__item">
+						<h3>管理する”ビル管理受託事業”</h3>
+						<p class="business__item__text">浜松町の世界貿易センタービルディング南館および大崎のThinkParkの管理・運営を行なっております。</p>
+						<img class="pc" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business03.svg" alt="">
+						<img class="sp" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business03-sp.svg" alt="">
+					</div>
+				</div>
 
-        <div class="business__wrap">
-          <div class="business__item">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business01.jpg" alt="">
-            <div class="business__item__text">
-              <h3>ビルの賃貸事業</h3>
-              <p>JR浜松町駅前の世界貿易センタービル南館とJR大崎駅前の<br>ThinkPark Towerにて快適なオフィス空間を提供。<br>豊富な経験に基づき、サービスのさらなる充実、<br>顧客満足度の向上を目指しています。</p>
-            </div>
-          </div>
-          <div class="business__item">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/img_business02.jpg" alt="">
-            <div class="business__item__text">
-              <h3>ビルの管理受託事業</h3>
-              <p>世界貿易センタービル南館及び<br>ThinkPark Towerの運営・管理を行っています。</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section> -->
-	<!-- business -->
+			</div>
+		</div>
+	</section>
 
 	<section class="features about__conts">
 		<div class="container">
@@ -123,7 +126,6 @@ get_header(); ?>
 	<section class="history about__conts">
 		<div class="container">
 			<div class="inner">
-
 				<h2 class="scroll-up"><span>HISTORY</span>世界貿易センタービルディング<br class="sp">のあゆみとこれから</h2>
 			</div>
 			<div class="history__wrap">
@@ -199,8 +201,7 @@ get_header(); ?>
 					<div class="history__text__wrap">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2001.png" alt="">
 						<p>
-							コージェネレーション・<br>
-							太陽光発電設備の導入
+							コージェネレーション・<br>太陽光発電設備の導入<br>「ThinkPark Tower」竣工
 						</p>
 					</div>
 				</div>
@@ -218,7 +219,8 @@ get_header(); ?>
 					<div class="history__text__wrap">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/history_2007.png" alt="">
 						<p>
-							「ThinkPark Tower」竣工
+							コージェネレーション・<br>
+							太陽光発電設備の導入
 						</p>
 					</div>
 				</div>
@@ -290,7 +292,39 @@ get_header(); ?>
 						<div class="office__modal">
 							<div class="modal__mask"></div>
 							<div class="office__modal__wrap container">
-								<div class="slider">
+
+								<div class="offece__slider pc">
+									<div class="slider-pc1">
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom3.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom4.jpg" alt="">
+										</div>
+									</div>
+									<div class="thumbnail1">
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom3.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="slider sp">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom1.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom2.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom3.jpg" alt="" class="slider_item">
@@ -314,7 +348,39 @@ get_header(); ?>
 						<div class="office__modal">
 							<div class="modal__mask"></div>
 							<div class="office__modal__wrap container">
-								<div class="slider">
+
+								<div class="offece__slider pc">
+									<div class="slider-pc2">
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office3.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office4.jpg" alt="">
+										</div>
+									</div>
+									<div class="thumbnail2">
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office3.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="slider sp">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office1.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office2.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office3.jpg" alt="" class="slider_item">
@@ -339,7 +405,39 @@ get_header(); ?>
 						<div class="office__modal">
 							<div class="modal__mask"></div>
 							<div class="office__modal__wrap container">
-								<div class="slider">
+
+								<div class="offece__slider pc">
+									<div class="slider-pc3">
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance3.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance4.jpg" alt="">
+										</div>
+									</div>
+									<div class="thumbnail3">
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance3.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="slider sp">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance1.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance2.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance3.jpg" alt="" class="slider_item">
@@ -364,7 +462,39 @@ get_header(); ?>
 						<div class="office__modal">
 							<div class="modal__mask"></div>
 							<div class="office__modal__wrap container">
-								<div class="slider">
+
+								<div class="offece__slider pc">
+									<div class="slider-pc4">
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi3.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi4.jpg" alt="">
+										</div>
+									</div>
+									<div class="thumbnail4">
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi3.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="slider sp">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi1.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi2.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi3.jpg" alt="" class="slider_item">
@@ -388,9 +518,54 @@ get_header(); ?>
 						<div class="office__modal">
 							<div class="modal__mask"></div>
 							<div class="office__modal__wrap container">
-								<div class="slider">
+
+								<div class="offece__slider pc">
+									<div class="slider-pc5">
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="">
+										</div>
+									</div>
+									<div class="thumbnail5">
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="slider sp">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="" class="slider_item">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="" class="slider_item">
 								</div>
 								<div class="office__modal__text">
 									<h4>集中ブース</h4>
@@ -410,7 +585,39 @@ get_header(); ?>
 						<div class="office__modal">
 							<div class="modal__mask"></div>
 							<div class="office__modal__wrap container">
-								<div class="slider">
+
+								<div class="offece__slider pc">
+									<div class="slider-pc6">
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect1.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect3.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect4.jpg" alt="">
+										</div>
+									</div>
+									<div class="thumbnail6">
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect1.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect3.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="slider sp">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect1.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect2.jpg" alt="" class="slider_item">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect3.jpg" alt="" class="slider_item">

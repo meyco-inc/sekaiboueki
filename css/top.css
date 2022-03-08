@@ -12,6 +12,13 @@
 html {
   height: -webkit-fill-available;
 }
+a {
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
 
 .top-page  {
 	color: #FFF;
@@ -303,6 +310,7 @@ background: #fff ;
 }
 
 .mv__link {
+	color: #fff;
 	padding: 0 5px 10px;
 	position: absolute;
 	top: 70%;
@@ -498,7 +506,7 @@ background: #fff ;
 	flex-direction: column;
 	justify-content: center;
 	letter-spacing: 0.12em;
-	line-height: 2.57;
+	line-height: 2.00;
 }
 
 .modal__text p {
