@@ -294,7 +294,7 @@ get_header(); ?>
 							<div class="office__modal__wrap container">
 
 								<div class="offece__slider pc">
-									<div class="slider-pc">
+									<div class="slider-pc1">
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom1.jpg" alt="">
 										</div>
@@ -308,7 +308,7 @@ get_header(); ?>
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom4.jpg" alt="">
 										</div>
 									</div>
-									<div class="thumbnail">
+									<div class="thumbnail1">
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/meetingroom1.jpg" alt="">
 										</div>
@@ -350,7 +350,7 @@ get_header(); ?>
 							<div class="office__modal__wrap container">
 
 								<div class="offece__slider pc">
-									<div class="slider-pc">
+									<div class="slider-pc2">
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office1.jpg" alt="">
 										</div>
@@ -364,7 +364,7 @@ get_header(); ?>
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office4.jpg" alt="">
 										</div>
 									</div>
-									<div class="thumbnail">
+									<div class="thumbnail2">
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/office1.jpg" alt="">
 										</div>
@@ -407,7 +407,7 @@ get_header(); ?>
 							<div class="office__modal__wrap container">
 
 								<div class="offece__slider pc">
-									<div class="slider-pc">
+									<div class="slider-pc3">
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance1.jpg" alt="">
 										</div>
@@ -421,7 +421,7 @@ get_header(); ?>
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance4.jpg" alt="">
 										</div>
 									</div>
-									<div class="thumbnail">
+									<div class="thumbnail3">
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/entrance1.jpg" alt="">
 										</div>
@@ -464,7 +464,7 @@ get_header(); ?>
 							<div class="office__modal__wrap container">
 
 								<div class="offece__slider pc">
-									<div class="slider-pc">
+									<div class="slider-pc4">
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi1.jpg" alt="">
 										</div>
@@ -478,7 +478,7 @@ get_header(); ?>
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi4.jpg" alt="">
 										</div>
 									</div>
-									<div class="thumbnail">
+									<div class="thumbnail4">
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/multi1.jpg" alt="">
 										</div>
@@ -520,20 +520,26 @@ get_header(); ?>
 							<div class="office__modal__wrap container">
 
 								<div class="offece__slider pc">
-									<div class="slider-pc">
+									<div class="slider-pc5">
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="">
 										</div>
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="">
+										</div>
+										<div class="slick-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="">
 										</div>
 									</div>
-									<div class="thumbnail transform-none">
+									<div class="thumbnail5 transform-none">
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth1.jpg" alt="">
 										</div>
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth2.jpg" alt="">
+										</div>
+										<div class="thumbnail-img">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/booth3.jpg" alt="">
 										</div>
 									</div>
 								</div>
@@ -562,7 +568,7 @@ get_header(); ?>
 							<div class="office__modal__wrap container">
 
 								<div class="offece__slider pc">
-									<div class="slider-pc">
+									<div class="slider-pc6">
 										<div class="slick-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect1.jpg" alt="">
 										</div>
@@ -576,7 +582,7 @@ get_header(); ?>
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect4.jpg" alt="">
 										</div>
 									</div>
-									<div class="thumbnail">
+									<div class="thumbnail6">
 										<div class="thumbnail-img">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/connect1.jpg" alt="">
 										</div>

@@ -17,7 +17,6 @@ get_header(); ?>
 		<div class="interview__top__text sp">
 			<p class="interview__name">吉田 孝輔</p>
 			<p class="interview__position">新ビル業務推進部</p>
-			<!-- <p class="interview__name-en">KOSUKE YOSHIDA / <br><span class="interview__position-en">PROPERTY MANAGEMENT <br>PLANNING</span></p> -->
 			<div class="interview__text sp">
 				<h1>何事も「自分事」として<br>捉えて知識を蓄えることが、<br>お客様に喜んで頂けることに<br>繋がる。</h1>
 			</div>

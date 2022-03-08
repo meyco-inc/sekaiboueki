@@ -2286,11 +2286,11 @@ img {
   display: flex;
   flex-direction: column;
 }
-.slider-pc {
-  flex: 1;
+.slider-pc1, .slider-pc2, .slider-pc3, .slider-pc4, .slider-pc5, .slider-pc6 {
+  /* flex: 1; */
   height: 80%;
 }
-.thumbnail {
+.thumbnail1, .thumbnail2, .thumbnail3, .thumbnail4, .thumbnail5, .thumbnail6  {
   height: 20%;
 }
 /* officeのスライダープロ設定 */

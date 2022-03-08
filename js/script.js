@@ -191,15 +191,6 @@ function FixedAnime() {
 			$('.header__fix').removeClass('shadow');
 		}
 }
-// function FixedAnime() {
-// 	let headerH = $('.page-template-page-entry .header__fix').outerHeight(true);
-// 	let scroll = $(window).scrollTop();
-// 	if (scroll >= headerH){
-// 			$('.page-template-page-entry .header__fix').addClass('shadow');
-// 		}else{
-// 			$('.page-template-page-entry .header__fix').removeClass('shadow');
-// 		}
-// }
 
 $(window).scroll(function () {
 	FixedAnime();
@@ -226,16 +217,104 @@ $(function(){
 
 $(function () {
   // メイン画像のオプション
-  $(".slider-pc").slick({
+  $(".slider-pc1").slick({
     autoplay: true, // 自動再生ON
     arrows: true, // 矢印非表示
-    asNavFor: ".thumbnail", // サムネイルと同期
+    asNavFor: ".thumbnail1", // サムネイルと同期
+		pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
   });
   // サムネイルのオプション
-  $(".thumbnail").slick({
+  $(".thumbnail1").slick({
     slidesToShow: 3, // サムネイルの表示数
 		arrows: false,
-    asNavFor: ".slider-pc", // メイン画像と同期
+    asNavFor: ".slider-pc1", // メイン画像と同期
+    focusOnSelect: true, // サムネイルクリックを有効化
+  });
+
+	// メイン画像のオプション
+  $(".slider-pc2").slick({
+    autoplay: true, // 自動再生ON
+    arrows: true, // 矢印非表示
+    asNavFor: ".thumbnail2", // サムネイルと同期
+		pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+  });
+  // サムネイルのオプション
+  $(".thumbnail2").slick({
+    slidesToShow: 3, // サムネイルの表示数
+		arrows: false,
+    asNavFor: ".slider-pc2", // メイン画像と同期
+    focusOnSelect: true, // サムネイルクリックを有効化
+  });
+
+	// メイン画像のオプション
+  $(".slider-pc3").slick({
+    autoplay: true, // 自動再生ON
+    arrows: true, // 矢印非表示
+    asNavFor: ".thumbnail3", // サムネイルと同期
+		pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+  });
+  // サムネイルのオプション
+  $(".thumbnail3").slick({
+    slidesToShow: 3, // サムネイルの表示数
+		arrows: false,
+    asNavFor: ".slider-pc3", // メイン画像と同期
+    focusOnSelect: true, // サムネイルクリックを有効化
+  });
+
+	// メイン画像のオプション
+  $(".slider-pc4").slick({
+    autoplay: true, // 自動再生ON
+    arrows: true, // 矢印非表示
+    asNavFor: ".thumbnail4", // サムネイルと同期
+		pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+  });
+  // サムネイルのオプション
+  $(".thumbnail4").slick({
+    slidesToShow: 3, // サムネイルの表示数
+		arrows: false,
+    asNavFor: ".slider-pc4", // メイン画像と同期
+    focusOnSelect: true, // サムネイルクリックを有効化
+  });
+
+	// メイン画像のオプション
+  $(".slider-pc5").slick({
+    autoplay: true, // 自動再生ON
+    arrows: true, // 矢印非表示
+    asNavFor: ".thumbnail5", // サムネイルと同期
+		pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+  });
+  // サムネイルのオプション
+  $(".thumbnail5").slick({
+    slidesToShow: 3, // サムネイルの表示数
+		arrows: false,
+    asNavFor: ".slider-pc5", // メイン画像と同期
+    focusOnSelect: true, // サムネイルクリックを有効化
+  });
+
+	// メイン画像のオプション
+  $(".slider-pc6").slick({
+    autoplay: true, // 自動再生ON
+    arrows: true, // 矢印非表示
+    asNavFor: ".thumbnail6", // サムネイルと同期
+		pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+  });
+  // サムネイルのオプション
+  $(".thumbnail6").slick({
+    slidesToShow: 3, // サムネイルの表示数
+		arrows: false,
+    asNavFor: ".slider-pc6", // メイン画像と同期
     focusOnSelect: true, // サムネイルクリックを有効化
   });
 });

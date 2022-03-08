@@ -17,15 +17,16 @@ get_header(); ?>
 		<div class="interview__top__text sp">
 			<p class="interview__name">鈴木 智哉</p>
 			<p class="interview__position">課長代理</p>
-			<div class="interview__text sp">
-				<h1>今の事業が初めての<br class="sp">不動産開発。<br>この経験を踏まえて、<br>将来的には<br>新しい開発事業に<br class="sp">挑戦したい。</h1>
-			</div>
+			<p class="interview__name-en">TOMOYA SUZUKI / <br><span class="interview__position-en">DEVELOPMENT<br>PLANNING</span></p>
 		</div>
 		<div class="interview__top__img">
 			<picture>
 				<source srcset="<?php echo get_stylesheet_directory_uri(); ?>/img/interview/sp_interview_img03.jpg" media="(max-width: 768px)" alt="">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/interview/interview_img03.jpg" alt="">
 			</picture>
+		</div>
+		<div class="container interview__text sp">
+			<h1>今の事業が初めての不動産開発。<br>この経験を踏まえて、<br>将来的には<br>新しい開発事業に挑戦したい。</h1>
 		</div>
 		<ul class="path">
 			<li class="path__top"><a href="<?php echo home_url(); ?>">TOP</a></li>
